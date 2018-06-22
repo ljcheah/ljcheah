@@ -101,7 +101,7 @@
         </header>
         <div class="main-section container-fluid align-middle">
             <div class="text-center align-self-center main-text">
-                <h1 class="display-3 fadein">We Are <b>Viscosity</b></h1>
+                <h1 class="display-3 fadein">We Are <b class="type-out"></b></h1>
                 <h3 class="light-text fadein">(Nice to meet you)</h3>
                 <a role="button" href="https://viscosity.us/quote" class="btn btn-primary btn-lg quote-button fadein">Get a Quote</a>
             </div>
@@ -142,6 +142,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
         <script src="js/anime.min.js"></script>
+        <script src="https://rawgit.com/mattboldt/typed.js/v2.0.6/lib/typed.min.js"></script>
         <script type="text/javascript">
             anime({
                 targets: '.fadein',
@@ -152,6 +153,19 @@
                 },
                 duration: 2500
             });
+        </script>
+        <script>
+            var options = {
+                strings: ["Life Insurance.", "Easy.", "Choice.", "Viscosity."],
+                typeSpeed: 60,
+                backSpeed: 50,
+                backDelay: 1000,
+                startDelay: 1000,
+                shuffle: false,
+                loop: false
+            };
+
+            var typed = new Typed(".type-out", options);
         </script>
     </body>
 </html>
