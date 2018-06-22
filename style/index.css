@@ -11,7 +11,7 @@ html, body {
 
 .quote-button {
     margin-top: 20px;
-    box-shadow: 0 0 10px #007bff;
+    box-shadow: 0 0 10px #007bff !important;
 }
 
 .light-text {
@@ -31,7 +31,7 @@ html, body {
 }
 
 .main-nav {
-    background-color: #ffffff;
+    background-color: #ffffff !important;
 }
 
 .first-triangle {
