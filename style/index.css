@@ -6,10 +6,12 @@ html, body {
 }
 
 .main-text {
+
 }
 
 .quote-button {
     margin-top: 20px;
+    box-shadow: 0 0 10px #007bff;
 }
 
 .light-text {
@@ -28,6 +30,9 @@ html, body {
     padding-top: 25vh;
 }
 
+.main-nav {
+    background-color: #ffffff;
+}
 
 .first-triangle {
     position: absolute;
