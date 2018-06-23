@@ -37,6 +37,7 @@
     margin-top: 150px;
     padding-left:10px;
     padding-top: 20px;
+    background-attachment: fixed;
 }
 
 .main-footer {
@@ -58,4 +59,8 @@
 
 .media-block {
     display: inline-block; width:70%;
+}
+
+.patterned {
+    background-attachment: fixed;
 }
