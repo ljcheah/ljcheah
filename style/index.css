@@ -32,6 +32,9 @@ html, body {
 
 .main-nav {
     background-color: #ffffff !important;
+    -webkit-box-shadow: 0 0 26px 0 rgba(0,0,0,0.16);
+    -moz-box-shadow: 0 0 26px 0 rgba(0,0,0,0.16);
+    box-shadow: 0 0 26px 0 rgba(0,0,0,0.16);
 }
 
 .announcements {
