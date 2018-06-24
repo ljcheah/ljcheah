@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="../style/index.css">
     <link rel="stylesheet" href="../style/common.css"/>
+    <link rel="stylesheet" href="style/recruitment.css"/>
     <link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../img/favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="../img/favicon/apple-icon-72x72.png">
@@ -75,36 +76,185 @@
     -->
 </head>
 <body>
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top main-nav" style="background-color: #ffffff">
-        <a class="navbar-brand" href="#"><img class="header-logo" src="../img/vis-logo-trans.png"/></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon">
-                    </span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="../">Home<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <div class="nav-link disabled" href="#">About Us</div>
-                </li>
-            </ul>
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Recruitment</a>
-                </li>
-                <li class="nav-item">
-                    <div class="nav-link disabled" href="#">Login</div>
-                </li>
-                <div style="width: 20px"></div>
-                <form class="form-inline">
-                    <a href="https://viscosity.us/quote" class="btn btn-primary" role="button">Get a Quote</a>
-                </form>
-            </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top main-nav" style="background-color: #ffffff">
+            <a class="navbar-brand" href="#"><img class="header-logo" src="../img/vis-logo-trans.png"/></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                        </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-link disabled" href="#">About Us</div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Recruitment</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-link disabled" href="#">Login</div>
+                    </li>
+                    <div style="width: 20px"></div>
+                    <form class="form-inline">
+                        <a href="https://viscosity.us/quote" class="btn btn-primary" role="button">Get a Quote</a>
+                    </form>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="patterned recruitment-section container-fluid align-middle">
+        <div class="text-primary recruitment-text text-center align-self-center">
+            <h1 class="display-4 fadein">Are you a Financial Professional?</h1>
+            <h3 class="rec-subtitle fadein">We want to work with you.</h3>
         </div>
-    </nav>
-</header>
+        <div class="fadein centered card">
+            <div class="card-body">
+                <form>
+                    <div class="form-group">
+                        <label for="fname">Your Name</label>
+                        <div class="form-row">
+                            <div class="col">
+                                <input type="text" id="fname" class="form-control" placeholder="John">
+                            </div>
+                            <div class="col">
+                                <input type="text" id="lname" class="form-control" placeholder="Snow">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="phonenum">Phone Number</label>
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">☎</div>
+                                    <input type="tel" class="form-control" id="phonenum" placeholder="(650) 123-4567">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <label for="ssn">Last 4 of SSN</label>
+                                <div class="input-group-prepend">
+                                    <input type="number" class="form-control" id="ssn" placeholder="3456">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-Mail</label>
+                        <div class="input-group">
+                            <input type="email" class="form-control" id="email" placeholder="john@viscosity.us">
+                        </div>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="registered">
+                        <label class="form-check-label" for="registered">I am registered with a broker-dealer</label>
+                    </div>
+                    <div style="padding-top: 10px;" class="form-row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="state">State</label>
+                                <select class="custom-select mr-sm-2" id="state">
+                                    <option value="AL">Alabama</option>
+                                    <option value="AK">Alaska</option>
+                                    <option value="AZ">Arizona</option>
+                                    <option value="AR">Arkansas</option>
+                                    <option value="CA">California</option>
+                                    <option value="CO">Colorado</option>
+                                    <option value="CT">Connecticut</option>
+                                    <option value="DE">Delaware</option>
+                                    <option value="DC">District Of Columbia</option>
+                                    <option value="FL">Florida</option>
+                                    <option value="GA">Georgia</option>
+                                    <option value="HI">Hawaii</option>
+                                    <option value="ID">Idaho</option>
+                                    <option value="IL">Illinois</option>
+                                    <option value="IN">Indiana</option>
+                                    <option value="IA">Iowa</option>
+                                    <option value="KS">Kansas</option>
+                                    <option value="KY">Kentucky</option>
+                                    <option value="LA">Louisiana</option>
+                                    <option value="ME">Maine</option>
+                                    <option value="MD">Maryland</option>
+                                    <option value="MA">Massachusetts</option>
+                                    <option value="MI">Michigan</option>
+                                    <option value="MN">Minnesota</option>
+                                    <option value="MS">Mississippi</option>
+                                    <option value="MO">Missouri</option>
+                                    <option value="MT">Montana</option>
+                                    <option value="NE">Nebraska</option>
+                                    <option value="NV">Nevada</option>
+                                    <option value="NH">New Hampshire</option>
+                                    <option value="NJ">New Jersey</option>
+                                    <option value="NM">New Mexico</option>
+                                    <option value="NY">New York</option>
+                                    <option value="NC">North Carolina</option>
+                                    <option value="ND">North Dakota</option>
+                                    <option value="OH">Ohio</option>
+                                    <option value="OK">Oklahoma</option>
+                                    <option value="OR">Oregon</option>
+                                    <option value="PA">Pennsylvania</option>
+                                    <option value="RI">Rhode Island</option>
+                                    <option value="SC">South Carolina</option>
+                                    <option value="SD">South Dakota</option>
+                                    <option value="TN">Tennessee</option>
+                                    <option value="TX">Texas</option>
+                                    <option value="UT">Utah</option>
+                                    <option value="VT">Vermont</option>
+                                    <option value="VA">Virginia</option>
+                                    <option value="WA">Washington</option>
+                                    <option value="WV">West Virginia</option>
+                                    <option value="WI">Wisconsin</option>
+                                    <option value="WY">Wyoming</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <label for="license">License #</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="license" placeholder="0684558">
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" style="display: inline-block;" class="btn btn-primary">Submit</button>
+                    <div style="display: inline-block; margin-left: 15px; color: #b5b5b5;">All fields are required</div>
+                </form>
+            </div>
+        </div>
+        <div class="why-section">
+            <div class="why-title text-center align-self-center">
+                <h4 class="why-title-text">Why work with us?</h4>
+            </div>
+        </div>
+    </div>
+    <footer class="main-footer">
+        <div style="display: inline-block;">
+            <img class="footer-img" src="../img/vis-logo-v.png"/>
+            <h1 style="display: inline-block">Viscosity</h1>
+        </div>
+        <div class="text-center media-block">
+            This is where social media, other links, legal stuff goes.
+        </div>
+        <div class="text-center align-self-center"><div class="license">© Viscosity Financial, CA License # 0684558/0H77233</div></div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="../js/anime.min.js"></script>
+    <script src="https://rawgit.com/mattboldt/typed.js/v2.0.6/lib/typed.min.js"></script>
+    <script type="text/javascript">
+        anime({
+            targets: '.fadein',
+            opacity: 1,
+            easing: 'linear',
+            delay: function(el, i, l) {
+                return i * 550;
+            },
+            duration: 2500
+        });
+    </script>
 </body>
 </html>
