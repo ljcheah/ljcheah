@@ -9,9 +9,29 @@ html, body {
     min-height: 25vh;
 }
 
-.quote-button {
+.btn-brand-outline {
+    background-color: #fff;
+    border-color: #9c37f2 !important;
+    color: #9c37f2 !important;
+}
+
+.btn-brand-outline:hover {
+    background-color: #9c37f2;
+    color: #fff0f6 !important;
+}
+
+.btn-brand {
+    background-color: #9c37f2;
+    color: #fff0f6;
+    border-color: #9c37f2 !important;
     margin-top: 20px;
-    box-shadow: 0 0 10px #007bff !important;
+    box-shadow: 0 0 10px #9c37f2 !important;
+}
+
+.btn-brand:hover {
+    background-color: #5e2898;
+    box-shadow: 0 0 7px #6e28ad !important;
+    border-color: #6e28ad !important;
 }
 
 .light-text {
@@ -33,9 +53,9 @@ html, body {
 
 .main-nav {
     background-color: #ffffff !important;
-    -webkit-box-shadow: 0 0 26px 0 rgba(0,0,0,0.16);
+    /*-webkit-box-shadow: 0 0 26px 0 rgba(0,0,0,0.16);
     -moz-box-shadow: 0 0 26px 0 rgba(0,0,0,0.16);
-    box-shadow: 0 0 26px 0 rgba(0,0,0,0.16);
+    box-shadow: 0 0 26px 0 rgba(0,0,0,0.16);*/
 }
 
 .announcements {
