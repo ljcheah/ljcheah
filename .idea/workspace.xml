@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb1f5c49-012c-4ccb-b977-6ade9e2e8746" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fb1f5c49-012c-4ccb-b977-6ade9e2e8746" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,7 +15,7 @@
     <session id="936355467">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
@@ -30,7 +28,7 @@
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="html" value="3" />
-          <entry key="js" value="2" />
+          <entry key="js" value="4" />
           <entry key="json" value="1" />
           <entry key="md" value="1" />
           <entry key="xml" value="1" />
@@ -40,7 +38,7 @@
         <counts>
           <entry key="HTML" value="3" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="2" />
+          <entry key="JavaScript" value="4" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="1" />
@@ -51,14 +49,14 @@
           <entry key="gitignore" value="6" />
           <entry key="html" value="10" />
           <entry key="md" value="317" />
-          <entry key="txt" value="198" />
+          <entry key="txt" value="237" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="10" />
           <entry key="Markdown" value="317" />
-          <entry key="PLAIN_TEXT" value="204" />
+          <entry key="PLAIN_TEXT" value="243" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -75,14 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iq/static/js/1.0420f282.chunk.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iq/static/js/1.0c46cff7.chunk.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-15" />
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -142,7 +137,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="290" />
+    <option name="x" value="280" />
     <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="987" />
@@ -176,7 +171,15 @@
               <item name="viscosity-landing" type="462c0819:PsiDirectoryNode" />
               <item name="iq" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="viscosity-landing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="viscosity-landing" type="462c0819:PsiDirectoryNode" />
+              <item name="iq" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="1.0c46cff7.chunk.js" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -226,7 +229,7 @@
       <workItem from="1544230912836" duration="60000" />
       <workItem from="1544647700354" duration="627000" />
       <workItem from="1545250374680" duration="1000" />
-      <workItem from="1545954702427" duration="1588000" />
+      <workItem from="1545954702427" duration="2367000" />
     </task>
     <task id="LOCAL-00001" summary="[React] Optimize Imports">
       <created>1533493494691</created>
@@ -277,11 +280,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545955483297</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="React | Fixed Disappearing Help Pane">
+      <created>1545956508901</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1545956508901</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4197000" />
+    <option name="totallyTimeSpent" value="4976000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -295,7 +305,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="290" y="23" width="1400" height="987" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -330,7 +339,8 @@
     <MESSAGE value="Update README.md" />
     <MESSAGE value="React | New Version" />
     <MESSAGE value="React | Fixed URLs" />
-    <option name="LAST_COMMIT_MESSAGE" value="React | Fixed URLs" />
+    <MESSAGE value="React | Fixed Disappearing Help Pane" />
+    <option name="LAST_COMMIT_MESSAGE" value="React | Fixed Disappearing Help Pane" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/iq/manifest.json">
@@ -364,6 +374,12 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/iq/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iq/static/js/1.0420f282.chunk.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -371,14 +387,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iq/static/js/1.0420f282.chunk.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iq/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/iq/static/js/1.0c46cff7.chunk.js">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15" />
+      </provider>
     </entry>
   </component>
 </project>
