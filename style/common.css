@@ -42,7 +42,11 @@
 
 .main-footer {
     padding-top: 20px;
-    background-color: white;
+    background-color: #9c37f2;
+    height: 30%;
+    color: white;
+    background-size: auto 200%;
+    background-clip: unset;
 }
 
 .footer-img {
@@ -51,7 +55,7 @@
 }
 
 .license {
-    color: #999;
+    color: inherit;
     font-family: Consolas, Menlo, Courier, monospace;
     margin-bottom: 5px;
     margin-left: 20px;
