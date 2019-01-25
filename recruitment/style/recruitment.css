@@ -24,6 +24,15 @@
     /*background: url(../img/bg.svg);*/
 }
 
+.main-footer {
+    padding-top: 20px;
+    background-color: #9c37f2;
+    height: 30%;
+    color: white;
+    background-size: auto 200%;
+    background-clip: unset;
+}
+
 .rec-subtitle {
     font-weight: lighter;
 }
