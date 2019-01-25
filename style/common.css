@@ -68,3 +68,7 @@
 .patterned {
     background-attachment: fixed;
 }
+
+.hero-img {
+    max-width: 300px;
+}
