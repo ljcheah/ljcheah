@@ -3,6 +3,7 @@ html, body {
     padding: 0;
     width: 100%;
     height: 100%;
+    background-color: #9c37f2;
 }
 
 .main-text {
@@ -49,6 +50,7 @@ html, body {
 .main-section {
     padding-top: 26vh;
     min-height: 100vh;
+    background-color: #ffffff;
 }
 
 .main-nav {
