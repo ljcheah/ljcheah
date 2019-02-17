@@ -1,0 +1,54 @@
+.about {
+    width: 100%;
+    background-color: #fff;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+
+.about-header {
+
+}
+
+.about-content {
+    padding: 0 30px;
+    overflow: auto;
+}
+
+.what-we-do {
+
+}
+
+.topquote {
+    padding: 20px 20px;
+    max-width: 600px;
+    background-color: #eee;
+}
+
+.who-we-are {
+
+}
+
+.founders {
+}
+
+.founder {
+    padding: 20px;
+}
+
+.fdr-img {
+    width: 250px;
+}
+
+.f-info {
+    margin-top: 20px;
+}
+
+.wwa-header {
+}
+
+.contact-us {
+
+}
+
+.cu-header {
+}

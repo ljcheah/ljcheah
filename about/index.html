@@ -21,6 +21,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
         <link rel="stylesheet" href="../style/index.css">
         <link rel="stylesheet" href="../style/common.css"/>
+        <link rel="stylesheet" href="style/about.css"/>
         <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-icon-60x60.png">
         <link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-icon-72x72.png">
@@ -52,39 +53,106 @@
     </head>
 </head>
 <body>
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top main-nav" style="background-color: #ffffff">
-        <a class="navbar-brand" href="#"><img class="header-logo" src="../img/iq/iq-logo.png"/></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon">
-                    </span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">About Us <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="http://store.viscosity.us/">Store</a>
-                </li>
-            </ul>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="/recruitment">Recruitment</a>
-                </li>
-                <li class="nav-item">
-                    <div class="nav-link disabled" href="#">Login</div>
-                </li>
-                <div style="width: 20px"></div>
-                <form class="form-inline">
-                    <a href="http://insuqo.herokuapp.com/quote" class="btn btn-primary btn-brand-outline" role="button">Get a Quote</a>
-                </form>
-            </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top main-nav" style="background-color: #ffffff">
+            <a class="navbar-brand" href="#"><img class="header-logo" src="../img/iq/iq-logo.png"/></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                        </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About Us <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://store.viscosity.us/">Store</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/recruitment">Recruitment</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-link disabled" href="#">Login</div>
+                    </li>
+                    <div style="width: 20px"></div>
+                    <form class="form-inline">
+                        <a href="http://insuqo.herokuapp.com/quote" class="btn btn-primary btn-brand-outline" role="button">Get a Quote</a>
+                    </form>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="about">
+        <div class="about-header container-fluid px-0 text-center">
+            <div class="" style="display: inline-block">
+                <h1 class="display-4">About Us</h1>
+                <h3 class="light-text">(Let us introduce ourselves)</h3>
+            </div>
         </div>
-    </nav>
-</header>
+        <div class="about-content">
+            <div class="what-we-do">
+                <h1 class="h1 wwd-header">What we do</h1>
+                <blockquote class="blockquote topquote">
+                    <p class="mb-0">I hate buying life insurance, the process is terrible and confusing.</p>
+                    <footer class="blockquote-footer">Everyone</footer>
+                </blockquote>
+                <p class="lead">Buying life insurance is <strong>hard</strong>. So we made it easy.</p>
+                <p><mark>This section is under construction</mark></p>
+            </div>
+            <div class="who-we-are">
+                <h1 class="h1 wwa-header">Who we are <small class="text-muted">(and how we got here)</small></h1>
+                <h2 class="text-center">Founders</h2>
+                <div class="container-fluid">
+                    <div class="founders row">
+                        <div class="col-md founder lenny">
+                            <img class="rounded mx-auto d-block fdr-img" src="img/lenny.jpg"/>
+                            <div class="f-info">
+                                <h3 class="text-center">Lenny Cheah</h3>
+                                <p class="lead">
+                                    Leonard J. ("Lenny") Cheah is a practicing life insurance broker, born and raised in San Diego, CA. After getting
+                                    his Bachelor's degree in <mark>DEGREE</mark> at San Diego State University, Lenny went on to work for the Team ISN
+                                    insurance-brokerage network. Lenny now also serves as Co-Founder and CEO of INSUQO.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md founder chris">
+                            <img class="rounded mx-auto d-block fdr-img" src="img/chris.jpg"/>
+                            <div class="f-info">
+                                <h3 class="text-center">Chris Gilardi</h3>
+                                <p class="lead">
+                                    Christopher T. ("Chris") Gilardi is a software engineer, born and raised in Redwood City, CA. After moving to San Diego
+                                    to pursue his bachelor's degree in Computer Science at <abbr title="San Diego State University">SDSU</abbr>, Chris met Lenny, and the rest is
+                                    history. Since that time, Chris has served as a Co-Founder, CTO and Lead Programmer for INSUQO.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-us">
+                <h1 class="h1 cu-header">Contact us</h1>
+            </div>
+        </div>
+        <footer class="main-footer">
+            <div style="display: inline-block;">
+                <img class="footer-img" src="../img/iq/iq-logo-white.png"/>
+            </div>
+            <div class="text-center media-block">
+                This is where social media, other links, legal stuff goes.
+            </div>
+            <div class="text-center align-self-center"><div class="license">© INSUQO, CA License # 0H77233</div></div>
+            <a href="https://www.vecteezy.com">Graphics by: Vecteezy!</a>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+        <script src="js/anime.min.js"></script>
+        <script src="https://rawgit.com/mattboldt/typed.js/v2.0.6/lib/typed.min.js"></script>
+    </div>
 </body>
 </html>
