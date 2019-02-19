@@ -4,32 +4,7 @@
     <list default="true" id="fb1f5c49-012c-4ccb-b977-6ade9e2e8746" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/android-icon-144x144.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/android-icon-144x144.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/android-icon-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/android-icon-192x192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/android-icon-36x36.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/android-icon-36x36.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/android-icon-48x48.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/android-icon-48x48.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/android-icon-72x72.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/android-icon-72x72.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/android-icon-96x96.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/android-icon-96x96.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/apple-icon-114x114.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/apple-icon-114x114.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/apple-icon-120x120.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/apple-icon-120x120.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/apple-icon-144x144.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/apple-icon-144x144.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/apple-icon-152x152.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/apple-icon-152x152.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/apple-icon-180x180.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/apple-icon-180x180.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/apple-icon-57x57.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/apple-icon-57x57.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/apple-icon-60x60.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/apple-icon-60x60.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/apple-icon-72x72.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/apple-icon-72x72.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/apple-icon-76x76.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/apple-icon-76x76.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/apple-icon-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/apple-icon-precomposed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/apple-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/apple-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/favicon-16x16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/favicon-32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/favicon-96x96.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/favicon-96x96.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/ms-icon-144x144.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/ms-icon-144x144.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/ms-icon-150x150.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/ms-icon-150x150.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/ms-icon-310x310.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/ms-icon-310x310.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/ms-icon-70x70.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/ms-icon-70x70.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about/style/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/about/style/about.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,31 +18,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/about/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
+            <state relative-caret-position="525">
               <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
             </state>
           </provider>
@@ -76,15 +29,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calculator/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+            <state relative-caret-position="242">
+              <caret line="240" column="70" lean-forward="true" selection-start-line="240" selection-start-column="70" selection-end-line="240" selection-end-column="103" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#label#0;n#div#6;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#label#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#7;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#label#0;n#div#9;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#7149#7155#0" expanded="true" />
-                <element signature="e#16434#16441#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,16 +46,18 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/favicon/favicon.ico">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calculator/style/calculator.css">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/about/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            <state relative-caret-position="91">
+              <caret line="140" column="40" selection-start-line="140" selection-start-column="40" selection-end-line="140" selection-end-column="40" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#label#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#label#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#label#0;n#div#1;n#form#0;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,7 +78,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/recruitment/style/recruitment.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
+            <state relative-caret-position="300">
               <caret line="20" selection-start-line="20" selection-end-line="24" selection-end-column="1" />
             </state>
           </provider>
@@ -134,6 +87,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/img/iq/iq-logo.png">
           <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about/style/about.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -161,18 +123,18 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/style/common.css" />
-        <option value="$PROJECT_DIR$/about/style/about.css" />
         <option value="$PROJECT_DIR$/recruitment/index.html" />
         <option value="$PROJECT_DIR$/style/index.css" />
         <option value="$PROJECT_DIR$/calculator/style/calculator.css" />
         <option value="$PROJECT_DIR$/calculator/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/about/style/about.css" />
         <option value="$PROJECT_DIR$/about/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="169" />
+    <option name="x" value="123" />
     <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="987" />
@@ -182,7 +144,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -237,6 +198,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -304,7 +266,8 @@
       <workItem from="1547850396480" duration="5821000" />
       <workItem from="1549337084439" duration="8000" />
       <workItem from="1550362413982" duration="8493000" />
-      <workItem from="1550539562316" duration="13518000" />
+      <workItem from="1550539562316" duration="13629000" />
+      <workItem from="1550613581460" duration="1071000" />
     </task>
     <task id="LOCAL-00001" summary="[React] Optimize Imports">
       <created>1533493494691</created>
@@ -495,11 +458,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550611897044</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Update FAVICON">
+      <created>1550613150763</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1550613150763</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33375000" />
+    <option name="totallyTimeSpent" value="34557000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -540,7 +510,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="[React] Optimize Imports" />
     <MESSAGE value="[React] New Version&#10;&#10;Took off styling, added new URL for application server" />
     <MESSAGE value="[React] Add All Static Files" />
     <MESSAGE value="Update README.md" />
@@ -565,7 +534,8 @@
     <MESSAGE value="Added Public option to School Types" />
     <MESSAGE value="vis -&gt; iq-api" />
     <MESSAGE value="Temp fix for empty values" />
-    <option name="LAST_COMMIT_MESSAGE" value="Temp fix for empty values" />
+    <MESSAGE value="Update FAVICON" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update FAVICON" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/iq/manifest.json">
@@ -641,41 +611,10 @@
     <entry file="file://$PROJECT_DIR$/about/img/lenny.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/about/style/about.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/iq/iq-logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recruitment/style/recruitment.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="20" selection-start-line="20" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="542" column="4" selection-start-line="542" selection-start-column="4" selection-end-line="542" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculator/style/calculator.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -686,10 +625,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/favicon/apple-icon-precomposed.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-277">
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/favicon/favicon.ico">
+    <entry file="file://$PROJECT_DIR$/style/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/favicon/apple-icon-precomposed.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/recruitment/index.html">
@@ -703,35 +653,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/recruitment/style/recruitment.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/iq/iq-logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator/style/calculator.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/favicon/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/calculator/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        <state relative-caret-position="242">
+          <caret line="240" column="70" lean-forward="true" selection-start-line="240" selection-start-column="70" selection-end-line="240" selection-end-column="103" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#label#0;n#div#6;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#label#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#7;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#label#0;n#div#9;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#7149#7155#0" expanded="true" />
-            <element signature="e#16434#16441#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/about/style/about.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        <state relative-caret-position="403">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/about/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+        <state relative-caret-position="91">
+          <caret line="140" column="40" selection-start-line="140" selection-start-column="40" selection-end-line="140" selection-end-column="40" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#label#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#label#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#label#0;n#div#1;n#form#0;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
