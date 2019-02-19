@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb1f5c49-012c-4ccb-b977-6ade9e2e8746" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/style/calculator.css" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/style/calculator.css" afterDir="false" />
-    </list>
+    <list default="true" id="fb1f5c49-012c-4ccb-b977-6ade9e2e8746" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -51,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/calculator/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="343" column="69" selection-start-line="343" selection-start-column="69" selection-end-line="343" selection-end-column="69" />
+            <state relative-caret-position="348">
+              <caret line="338" column="46" selection-start-line="338" selection-start-column="46" selection-end-line="338" selection-end-column="46" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#label#0;n#div#6;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -271,7 +267,7 @@
       <workItem from="1547850396480" duration="5821000" />
       <workItem from="1549337084439" duration="8000" />
       <workItem from="1550362413982" duration="8493000" />
-      <workItem from="1550539562316" duration="10622000" />
+      <workItem from="1550539562316" duration="10944000" />
     </task>
     <task id="LOCAL-00001" summary="[React] Optimize Imports">
       <created>1533493494691</created>
@@ -385,11 +381,25 @@
       <option name="project" value="LOCAL" />
       <updated>1550543785417</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Implemented /calculator">
+      <created>1550570683685</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1550570683685</updated>
+    </task>
+    <task id="LOCAL-00018" summary="update API url">
+      <created>1550570731906</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1550570731906</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30479000" />
+    <option name="totallyTimeSpent" value="30801000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -403,7 +413,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="169" y="23" width="1400" height="987" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2813633" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -445,7 +454,9 @@
     <MESSAGE value="Add Lenny's Degree" />
     <MESSAGE value="Update Footer all pages" />
     <MESSAGE value="Added /calculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added /calculator" />
+    <MESSAGE value="Implemented /calculator" />
+    <MESSAGE value="update API url" />
+    <option name="LAST_COMMIT_MESSAGE" value="update API url" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/iq/manifest.json">
@@ -597,8 +608,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/calculator/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="343" column="69" selection-start-line="343" selection-start-column="69" selection-end-line="343" selection-end-column="69" />
+        <state relative-caret-position="348">
+          <caret line="338" column="46" selection-start-line="338" selection-start-column="46" selection-end-line="338" selection-end-column="46" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#label#0;n#div#6;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
