@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="keywords" content="Life, Insurance, Insuqo, Finance, Technology, Family, ZBT, Calculator">
+    <meta name="description" content="Do you have life insurance? If not, it's time to consider it. INSUQO makes it simple to shop for and buy life insurance.">
+    <meta name="author" content="INSUQO">
+    <meta property="og:image" content="https://insuqo.com/img/iq/iq-lettermark.png">
+    <meta property="og:url" content="https://insuqo.com/">
+    <meta property="og:title" content="INSUQO | Insurance Calculator">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="INSUQO helps make it easy to buy life insurance. Why fight to buy life insurance when companies can fight for you?">
+    <title>INSUQO | Insurance Calculator</title>
+    <link rel="stylesheet" href="../style/normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/index.css">
+    <link rel="stylesheet" href="../style/common.css"/>
+    <link rel="stylesheet" href="style/calculator.css"/>
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/manifest.json">
+
+    <!-- Crisp Chat Code -->
+    <script type="text/javascript">
+        window.$crisp=[];
+        window.CRISP_WEBSITE_ID="73883896-5e64-41d2-bece-076aa2aa046b";
+        (function(){
+            d=document;
+            s=d.createElement("script");
+            s.src="https://client.crisp.chat/l.js";
+            s.async=1;
+            d.getElementsByTagName("head")[0].appendChild(s);
+        })();
+    </script>
+    <!-- End of Crisp Code -->
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top main-nav" style="background-color: #ffffff">
+            <a class="navbar-brand" href="/"><img class="header-logo" src="../img/iq/iq-logo.png"/></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                        </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://store.viscosity.us/">Store</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Recruitment</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-link disabled" href="#">Login</div>
+                    </li>
+                    <div style="width: 20px"></div>
+                    <div class="form-inline">
+                        <a href="http://insuqo.herokuapp.com/quote" class="btn btn-primary btn-brand-outline" role="button">Get a Quote</a>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="calc-header text-center">
+        <h1 class="display-4">Life Insurance Calculator</h1>
+        <h3 class="text-muted">(For all your calculating needs)</h3>
+    </div>
+    <div class="calc-body container-fluid align-middle row justify-content-center">
+        <div class="form-content col-md-8 " style="max-width: 600px; padding-top: 20px">
+            <form>
+                <div class="form-header">
+                    <h2>Loans and Balances<br/>
+                    <small class="text-muted">Input your current balance for each of the below</small></h2>
+                </div>
+                <div class="form-group">
+                    <label for="mortgageBal">Mortgage</label>
+                    <input type="text" class="form-control money-format" id="mortgageBal" placeholder="150000">
+                </div>
+                <div class="form-group">
+                    <label for="carLoanBal">Car Loan</label>
+                    <input type="text" class="form-control money-format" id="carLoanBal" placeholder="12000">
+                </div>
+                <div class="form-group">
+                    <label for="outstandingDebt">Outstanding Debt</label>
+                    <input type="text" class="form-control money-format" id="outstandingDebt" placeholder="50000">
+                </div>
+                <div class="form-group">
+                    <label for="studentLoan">Student Loan(s)</label>
+                    <input type="text" class="form-control money-format" id="studentLoan" placeholder="30000">
+                </div>
+                <div class="form-header">
+                    <h2>Children</h2>
+                </div>
+                <div class="form-group">
+                    <label for="hasChildren1">Do you have children?</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="hasChildren" id="hasChildren1" value="true" checked>
+                        <label class="form-check-label" for="hasChildren1">
+                            Yes
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="hasChildren" id="hasChildren2" value="false">
+                        <label class="form-check-label" for="hasChildren2">
+                            No
+                        </label>
+                    </div>
+                </div>
+                <div id="child-section">
+                    <div class="form-group">
+                        <label for="numChildren">How many children do you have?</label>
+                        <input type="number" class="form-control" id="numChildren" placeholder="2">
+                    </div>
+                </div>
+                <div class="form-header">
+                    <h2>Other</h2>
+                </div>
+                <div class="form-group">
+                    <label for="deathStyle">End-of-life consideration</label>
+                    <select id="deathStyle" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>Cremation</option>
+                        <option>Burial</option>
+                        <option>Unsure</option>
+                    </select>
+                </div>
+                <button type="button" class="btn btn-brand btn-lg btn-block">Calculate</button>
+            </form>
+        </div>
+    </div>
+    <footer class="footer-distributed">
+        <div class="footer-right">
+            <a href="https://www.facebook.com/insuqo"><i class="fab fa-facebook"></i></a>
+            <!--<a href="#"><i class="fab fa-twitter"></i></a>-->
+            <a href="https://www.linkedin.com/company/insuqo"><i class="fab fa-linkedin"></i></a>
+            <!--<a href="#"><i class="fab fa-github"></i></a>-->
+        </div>
+        <div class="footer-left">
+            <p class="footer-links">
+                <a href="/">Home</a>
+                ·
+                <a href="/about">About</a>
+                ·
+                <a href="/recruitment">Recruitment</a>
+                ·
+                <a href="http://insuqo.herokuapp.com/quote">Get a Quote</a>
+                ·
+                <a href="/about#contact">Contact</a>
+            </p>
+
+            <p>INSUQO &copy; 2019</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="../js/cleave.min.js"></script>
+    <script src="https://rawgit.com/mattboldt/typed.js/v2.0.6/lib/typed.min.js"></script>
+    <script>
+        $("#hasChildren1").on("change", function() {
+            console.log(true);
+            $("#child-section").show();
+        });
+        $("#hasChildren2").on("change", function() {
+            console.log(false);
+            $("#child-section").hide();
+        });
+    </script>
+    <script>
+        let options = {
+            prefix: '$ ',
+            numeral: true,
+            numeralThousandsGroupStyle: 'thousand'
+        };
+        new Cleave('#mortgageBal', options);
+        new Cleave('#carLoanBal', options);
+        new Cleave('#outstandingDebt', options);
+        new Cleave('#studentLoan', options);
+    </script>
+</body>
+</html>

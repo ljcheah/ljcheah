@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb1f5c49-012c-4ccb-b977-6ade9e2e8746" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/viscosity-landing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/viscosity-landing.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/style/calculator.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about/style/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/about/style/about.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recruitment/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/recruitment/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/common.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/index.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,20 +23,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="e#7204#7210#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="347">
+              <caret line="92" column="119" selection-start-line="92" selection-start-column="119" selection-end-line="92" selection-end-column="119" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/common.css">
+        <entry file="file://$PROJECT_DIR$/about/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="102" column="19" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="19" />
+            <state relative-caret-position="508">
+              <caret line="157" column="21" lean-forward="true" selection-start-line="157" selection-start-column="21" selection-end-line="157" selection-end-column="21" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,34 +45,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-752">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state relative-caret-position="381">
+              <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/index-dark.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/about/index.html">
+        <entry file="file://$PROJECT_DIR$/calculator/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="108" column="40" selection-start-line="108" selection-start-column="40" selection-end-line="108" selection-end-column="40" />
+            <state relative-caret-position="416">
+              <caret line="189" column="39" selection-start-line="189" selection-start-column="39" selection-end-line="189" selection-end-column="39" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#9700#9706#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#7149#7155#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/iq/iq-logo-white.png">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/calculator/style/calculator.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -84,7 +81,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about/style/about.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
+            <state relative-caret-position="540">
               <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
@@ -93,12 +90,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/recruitment/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="217" column="64" selection-start-line="217" selection-start-column="64" selection-end-line="217" selection-end-column="64" />
+            <state relative-caret-position="193">
+              <caret line="244" selection-start-line="244" selection-end-line="248" selection-end-column="89" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#14767#14773#0" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recruitment/style/recruitment.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="20" selection-start-line="20" selection-end-line="24" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -132,18 +138,20 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/style/index.css" />
         <option value="$PROJECT_DIR$/style/common.css" />
         <option value="$PROJECT_DIR$/about/style/about.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/recruitment/index.html" />
         <option value="$PROJECT_DIR$/about/index.html" />
+        <option value="$PROJECT_DIR$/calculator/style/calculator.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/style/index.css" />
+        <option value="$PROJECT_DIR$/calculator/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="143" />
-    <option name="y" value="35" />
+    <option name="x" value="169" />
+    <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="987" />
   </component>
@@ -163,24 +171,7 @@
             <path>
               <item name="viscosity-landing" type="b2602c69:ProjectViewProjectNode" />
               <item name="viscosity-landing" type="462c0819:PsiDirectoryNode" />
-              <item name="about" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="viscosity-landing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="viscosity-landing" type="462c0819:PsiDirectoryNode" />
-              <item name="about" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="viscosity-landing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="viscosity-landing" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="viscosity-landing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="viscosity-landing" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="iq" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="viscosity-landing" type="b2602c69:ProjectViewProjectNode" />
@@ -268,7 +259,8 @@
       <workItem from="1547836895120" duration="71000" />
       <workItem from="1547850396480" duration="5821000" />
       <workItem from="1549337084439" duration="8000" />
-      <workItem from="1550362413982" duration="7713000" />
+      <workItem from="1550362413982" duration="8493000" />
+      <workItem from="1550539562316" duration="3586000" />
     </task>
     <task id="LOCAL-00001" summary="[React] Optimize Imports">
       <created>1533493494691</created>
@@ -368,11 +360,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550371793628</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Update Footer all pages">
+      <created>1550374839882</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1550374839882</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19077000" />
+    <option name="totallyTimeSpent" value="23443000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -385,7 +384,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="143" y="35" width="1400" height="987" extended-state="0" />
+    <frame x="169" y="23" width="1400" height="987" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2813633" />
@@ -426,7 +425,8 @@
     <MESSAGE value="Test-links" />
     <MESSAGE value="Add About Us Page" />
     <MESSAGE value="Add Lenny's Degree" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Lenny's Degree" />
+    <MESSAGE value="Update Footer all pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Footer all pages" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/iq/manifest.json">
@@ -486,11 +486,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/iq/iq-logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about/img/lenny.jpg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/style/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="102" column="19" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="19" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/index-dark.css">
       <provider selected="true" editor-type-id="text-editor" />
@@ -498,56 +499,76 @@
     <entry file="file://$PROJECT_DIR$/img/iq/iq-logo-white.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-752">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/about/img/lenny.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/about/style/about.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
+        <state relative-caret-position="540">
           <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/iq/iq-logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="157" column="21" lean-forward="true" selection-start-line="157" selection-start-column="21" selection-end-line="157" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recruitment/style/recruitment.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="20" selection-start-line="20" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator/style/calculator.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#7204#7210#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="347">
+          <caret line="92" column="119" selection-start-line="92" selection-start-column="119" selection-end-line="92" selection-end-column="119" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/common.css">
+    <entry file="file://$PROJECT_DIR$/style/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="102" column="19" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="19" />
+        <state relative-caret-position="381">
+          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recruitment/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="217" column="64" selection-start-line="217" selection-start-column="64" selection-end-line="217" selection-end-column="64" />
+        <state relative-caret-position="193">
+          <caret line="244" selection-start-line="244" selection-end-line="248" selection-end-column="89" />
           <folding>
             <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#14767#14773#0" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about/index.html">
+    <entry file="file://$PROJECT_DIR$/calculator/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="108" column="40" selection-start-line="108" selection-start-column="40" selection-end-line="108" selection-end-column="40" />
+        <state relative-caret-position="416">
+          <caret line="189" column="39" selection-start-line="189" selection-start-column="39" selection-end-line="189" selection-end-column="39" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#9700#9706#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7149#7155#0" expanded="true" />
           </folding>
         </state>
       </provider>

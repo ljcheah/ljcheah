@@ -26,12 +26,18 @@ html, body {
     color: #fff0f6;
     border-color: #9c37f2 !important;
     margin-top: 20px;
+}
+
+.brand-shadow {
     box-shadow: 0 0 10px #9c37f2 !important;
+}
+
+.brand-shadow:hover {
+    box-shadow: 0 0 7px #6e28ad !important;
 }
 
 .btn-brand:hover {
     background-color: #5e2898;
-    box-shadow: 0 0 7px #6e28ad !important;
     border-color: #6e28ad !important;
 }
 
