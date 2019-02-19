@@ -2,15 +2,19 @@
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://viscosity.us/</loc>
+		<loc>https://insuqo.com/</loc>
 		<priority>0.9</priority>
 	</url>
 	<url>
-		<loc>https://viscosity.us/recruitment</loc>
+		<loc>https://insuqo.com/recruitment</loc>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://viscosity.us/quote</loc>
-		<priority>0.5</priority>
+		<loc>https://insuqo.com/about</loc>
+		<priority>0.7</priority>
+	</url>
+	<url>
+		<loc>https://insuqo.com/calculator</loc>
+		<priority>0.3</priority>
 	</url>
 </urlset>
