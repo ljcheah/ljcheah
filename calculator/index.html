@@ -336,7 +336,7 @@
                 rnd: true
             }, true);
             console.log(qs)
-            fetch("http://insuqo.herokuapp.com/util/iq/calc?" + qs).then(
+            fetch("https://viscosity-admin.herokuapp.com/util/iq/calc?" + qs).then(
                 data => data.json()
             ).then(json => {
                 let modal = $("#coverageModal");
