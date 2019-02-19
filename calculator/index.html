@@ -116,7 +116,7 @@
                     <h2>Children</h2>
                 </div>
                 <div class="form-group">
-                    <label for="hasChildren1">Do you have children?</label>
+                    <label for="hasChildren1">Do you have children? <span style="color: red">*</span></label>
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="hasChildren" id="hasChildren1" value="true" checked>
                         <label class="form-check-label" for="hasChildren1">
@@ -131,24 +131,121 @@
                     </div>
                 </div>
                 <div id="child-section">
-                    <div class="form-group">
-                        <label for="numChildren">How many children do you have?</label>
-                        <input type="number" class="form-control" id="numChildren" placeholder="2">
+                    <div id="child-list">
+                        <div id="crow-0" class="child-row form-row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="childAge0">Child 1 Age (Years) <span style="color: red">*</span></label>
+                                    <input type="number" class="form-control" id="childAge0" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="uniType0">Type of University</label>
+                                    <select class="form-control" id="uniType0">
+                                        <option selected value="non">None</option>
+                                        <option value="unk">Undecided</option>
+                                        <option value="pnp">Private Non-Profit</option>
+                                        <option value="pfp">Private For-Profit</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="crow-1" class="child-row form-row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="childAge1">Child 2 Age</label>
+                                    <input type="number" class="form-control" id="childAge1" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="uniType0">Type of University</label>
+                                    <select class="form-control" id="uniType1">
+                                        <option selected value="non">None</option>
+                                        <option value="unk">Undecided</option>
+                                        <option value="pnp">Private Non-Profit</option>
+                                        <option value="pfp">Private For-Profit</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="crow-2" class="child-row form-row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="childAge0">Child 3 Age</label>
+                                    <input type="number" class="form-control" id="childAge2" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="uniType0">Type of University</label>
+                                    <select class="form-control" id="uniType2">
+                                        <option selected value="non">None</option>
+                                        <option value="unk">Undecided</option>
+                                        <option value="pnp">Private Non-Profit</option>
+                                        <option value="pfp">Private For-Profit</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="crow-3" class="child-row form-row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="childAge0">Child 4 Age</label>
+                                    <input type="number" class="form-control" id="childAge3" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="uniType0">Type of University</label>
+                                    <select class="form-control" id="uniType3">
+                                        <option selected value="non">None</option>
+                                        <option value="unk">Undecided</option>
+                                        <option value="pnp">Private Non-Profit</option>
+                                        <option value="pfp">Private For-Profit</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="crow-4" class="child-row form-row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="childAge0">Child 5 Age</label>
+                                    <input type="number" class="form-control" id="childAge4" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="uniType0">Type of University</label>
+                                    <select class="form-control" id="uniType4">
+                                        <option selected value="non">None</option>
+                                        <option value="unk">Undecided</option>
+                                        <option value="pnp">Private Non-Profit</option>
+                                        <option value="pfp">Private For-Profit</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="form-header">
                     <h2>Other</h2>
                 </div>
                 <div class="form-group">
-                    <label for="deathStyle">End-of-life consideration</label>
+                    <label for="deathStyle">End-of-life consideration <span style="color: red">*</span></label>
                     <select id="deathStyle" class="form-control">
-                        <option selected>Choose...</option>
-                        <option>Cremation</option>
-                        <option>Burial</option>
-                        <option>Unsure</option>
+                        <option selected disabled>Choose...</option>
+                        <option value="crm">Cremation</option>
+                        <option value="bur">Burial</option>
+                        <option value="unk">Unsure</option>
                     </select>
                 </div>
-                <button type="button" class="btn btn-brand btn-lg btn-block">Calculate</button>
+                <div class="form-group">
+                    <label for="leaveToFamily">Money left to family</label>
+                    <input type="text" class="form-control money-format" id="leaveToFamily" placeholder="50000">
+                </div>
+                <button type="button" onclick="calculate()" class="btn btn-brand btn-lg btn-block">Calculate</button>
             </form>
         </div>
     </div>
@@ -175,12 +272,82 @@
             <p>INSUQO &copy; 2019</p>
         </div>
     </footer>
+    <!-- Modal -->
+    <div class="modal fade" id="coverageModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Your recommended coverage</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Congrats! We've run the calculation for you. Your recommended coverage is:
+                    <h1 id="recCoverage"></h1>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Thanks!</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     <script src="../js/cleave.min.js"></script>
     <script src="https://rawgit.com/mattboldt/typed.js/v2.0.6/lib/typed.min.js"></script>
     <script>
+        window.onload = function () {
+        }
+    </script>
+    <script>
+        calculate = function () {
+            let mor = $("#mortgageBal").val().replace(/[^0-9]/g, '');
+            let car = $("#carLoanBal").val().replace(/[^0-9]/g, '');
+            let dbt = $("#outstandingDebt").val().replace(/[^0-9]/g, '');
+            let stu = $("#studentLoan").val().replace(/[^0-9]/g, '');
+            let ltf = $("#leaveToFamily").val().replace(/[^0-9]/g, '');
+            console.log(mor, car, dbt, stu)
+
+            let age0 = $("#childAge0").val();
+            let age1 = $("#childAge1").val();
+            let age2 = $("#childAge2").val();
+            let age3 = $("#childAge3").val();
+            let age4 = $("#childAge4").val();
+
+            let uni0 = $("#uniType0").val();
+            let uni1 = $("#uniType1").val();
+            let uni2 = $("#uniType2").val();
+            let uni3 = $("#uniType3").val();
+            let uni4 = $("#uniType4").val();
+
+            let dth = $("#deathStyle").val();
+
+            let qs = $.param({
+                mor,
+                car,
+                dbt,
+                stu,
+                ags: [age0 | null, age1 | null, age2 | null, age3 | null, age4 | null],
+                uni: [uni0, uni1, uni2, uni3, uni4],
+                dth,
+                ltf,
+                rnd: true
+            }, true);
+            console.log(qs)
+            fetch("http://localhost:4567/util/iq/calc?" + qs).then(
+                data => data.json()
+            ).then(json => {
+                let modal = $("#coverageModal");
+                console.log(json);
+                modal.find("#recCoverage").text("$ " + json.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,'));
+                modal.modal('show');
+            })
+        }
+    </script>
+    <script>
+        let childRowCount = 1;
         $("#hasChildren1").on("change", function() {
             console.log(true);
             $("#child-section").show();
@@ -200,6 +367,7 @@
         new Cleave('#carLoanBal', options);
         new Cleave('#outstandingDebt', options);
         new Cleave('#studentLoan', options);
+        new Cleave('#leaveToFamily', options);
     </script>
 </body>
 </html>
