@@ -336,9 +336,7 @@
                 rnd: true
             }, true);
             console.log(qs);
-            fetch("https://viscosity-api.herokuapp.com/util/iq/calc?" + qs, {
-                method: 'no-cors'
-            }).then(
+            fetch("https://viscosity-api.herokuapp.com/util/iq/calc?" + qs).then(
                 data => data.json()
             ).then(json => {
                 let modal = $("#coverageModal");
