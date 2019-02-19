@@ -335,8 +335,10 @@
                 ltf,
                 rnd: true
             }, true);
-            console.log(qs)
-            fetch("https://viscosity-admin.herokuapp.com/util/iq/calc?" + qs).then(
+            console.log(qs);
+            fetch("https://viscosity-admin.herokuapp.com/util/iq/calc?" + qs, {
+                method: 'no-cors'
+            }).then(
                 data => data.json()
             ).then(json => {
                 let modal = $("#coverageModal");
