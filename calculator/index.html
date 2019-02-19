@@ -330,14 +330,14 @@
             let dth = $("#deathStyle").val();
 
             let qs = $.param({
-                mor,
-                car,
-                dbt,
-                stu,
+                mor: mor | 0,
+                car: car | 0,
+                dbt: dbt | 0,
+                stu: stu | 0,
                 ags: [age0 | null, age1 | null, age2 | null, age3 | null, age4 | null],
                 uni: [uni0, uni1, uni2, uni3, uni4],
-                dth,
-                ltf,
+                dth: dth | 0,
+                ltf: ltf | 0,
                 rnd: true
             }, true);
             console.log(qs);
