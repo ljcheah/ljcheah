@@ -336,7 +336,7 @@
                 rnd: true
             }, true);
             console.log(qs);
-            fetch("https://viscosity-admin.herokuapp.com/util/iq/calc?" + qs, {
+            fetch("https://viscosity-api.herokuapp.com/util/iq/calc?" + qs, {
                 method: 'no-cors'
             }).then(
                 data => data.json()
